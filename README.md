@@ -6,6 +6,12 @@ alternative. Pings via Linux's real unprivileged ICMP mechanism (a
 `net.ipv4.ping_group_range` sysctl most distros already leave open) —
 no `CAP_NET_RAW`, no root, unlike a traditional raw-socket `ping`.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
